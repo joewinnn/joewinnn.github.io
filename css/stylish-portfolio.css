@@ -218,6 +218,10 @@ hr.small {
 
 }
 
+.portfolio .container .img-responsive{
+    margin: 0 auto;
+}
+
 
 /* Call to Action */
 
