@@ -178,6 +178,7 @@ hr.small {
 .about .container img{
     position: relative;
   -webkit-filter: brightness(1.2)saturate(1.2);
+  margin: 0 auto;
 
 }
 
