@@ -73,7 +73,7 @@ hr.small {
     height: 100%;
     margin-right: -250px;
     overflow-y: auto;
-    background: #222;
+    background: #1cc3a0;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -ms-transition: all 0.4s ease 0s;
@@ -98,7 +98,7 @@ hr.small {
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #999;
+    color: #fff;
 }
 
 .sidebar-nav li a:hover {
@@ -154,12 +154,13 @@ hr.small {
     display: table;
     position: relative;
     width: 100%;
-    height: 200%;
-    background: url(../img/jacky.jpg) no-repeat center center scroll;
+    height: 100%;
+    background: url(../img/detroit.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    -webkit-filter: sepia(.1)saturate(2);
 }
 
 /* About */
@@ -168,17 +169,22 @@ hr.small {
     padding: 50px 0;
 }
 
+.about .container{
+    border: 3px solid #1cc3a0;
+    padding: 50px;
 
+}
 
-.about .container .col-lg-6 img{
-    position: relative;
-    left: 100px;
+.about .container img{
+    position: relatve;
+  -webkit-filter: brightness(1.2)saturate(1.2);
+
 }
 
 /* Services */
 
 .services {
-    padding: 50px 0;
+    padding: 40px 0;
 }
 
 .service-item {
@@ -205,17 +211,12 @@ hr.small {
     padding: 50px 0;
 }
 
-.portfolio-item {
-    margin-bottom: 30px;
+.portfolio .container{
+ border: 3px solid #1cc3a0;
+    padding: 30px;
+
 }
 
-.img-portfolio {
-    margin: 0 auto;
-}
-
-.img-portfolio:hover {
-    opacity: 0.8;
-}
 
 /* Call to Action */
 
