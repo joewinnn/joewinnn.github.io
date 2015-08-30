@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Joseph Nguyen's Webpage</title>
+    <title>More about me</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -38,44 +38,93 @@
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li>
-                <a href="#top" onclick = $("#menu-close").click(); >Joseph Nguyen</a>
+                <a href="index.html" onclick = $("#menu-close").click(); >Back to Main Page</a>
             </li>
             <li>
-                <a href="page2.html" onclick = $("#menu-close").click(); >Experience and Skill</a>
-            </li>
             <li>
                 <a href="#contact" onclick = $("#menu-close").click(); >Contact Me</a>
             </li>
         </ul>
     </nav>
 
-    <!-- Header -->
-    <header id="top" class="header">
-        <div class="text-vertical-center">
-            <h1>Joseph Nguyen</h1>
-            <h3></h3>
-            <br>
-            <a href="#about" class="btn btn-dark btn-lg">Scroll Below</a>
-        </div>
-    </header>
-
-    <!-- About -->
-    <section id="about" class="about">
-        <div class="container">
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+         <div class="container">
+            <div class="col-lg-12 text-center">
+            <h1>Work Experience</h1>
+            <div>
             <div class="row">
-                
-                 <div class="col-md-6">          
-                    <img src="../img/me.jpg" class="img-circle img-responsive" alt="Cinque Terre" width="300" height="300"> 
-                </div>
                 <div class="col-lg-6 text-center">
-                    <h1>About Me</h1>
-                    <p class="lead">I'm a 4th Year studying Computer Science in Engineering pursuing a career in Softwar Develpoment.  Born in Detroit, MI, and grew up in Florida.  When I get the chance, I like to surf, read, and play sports</p>
+                    <h3>System Administrator</h3>
+                    <h4>UF, College of Agriculture and Life Sciences</h4><h4>2013-Present</h4>
+                    <p class="lead">I'm a 4th Year studying Computer Science in Engineering pursuing a career in Softwar Develpoment.  Born in Detroit, MI, and grew up in Florida.  </p>
+                </div><div class="col-md-6">          
+                    <img src="../img/uf.png" class="img-responsive" alt="Cinque Terre" width="400" height="400"> 
                 </div>
             </div>
             <!-- /.row -->
         </div>
         <!-- /.container -->
     </section>
+
+   
+    <section id="more" class="more bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <<i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>GitHub</strong>
+                                </h4>
+                                <p>Check out this sites repository</p>
+                                <a href="https://github.com/joewinnn/joewinnn.github.io" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-laptop fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Skills</strong>
+                                </h4>
+                                <p>Programming Languages</p>
+                                 <button type="button" class="btn btn-light" data-toggle="collapse" data-target="#demo">Learn More</button>
+                                <div id="demo" class="collapse">
+                                    Java, C++, Ruby, mySQL, HTML, CSS
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-list fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Resume</strong>
+                                </h4>
+                                <p>Check it out</p>
+                                <a href="resume.html" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
 
     <!-- Footer -->
     <footer>
@@ -85,7 +134,7 @@
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h4><strong>Contact Me</strong>
                     </h4>
-               
+                    
                     <ul class="list-unstyled">
                         <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:josephkimnguyen@gmail.com">josephkimnguyen@gmail.com</a>
                         </li>
@@ -105,6 +154,7 @@
             </div>
         </div>
     </section>
+
     </footer>
 
     <!-- jQuery -->

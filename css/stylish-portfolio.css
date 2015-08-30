@@ -172,39 +172,28 @@ hr.small {
 .about .container{
     border: 3px solid #1cc3a0;
     padding: 50px;
-
 }
 
 .about .container .img-responsive{
     position: relative;
   -webkit-filter: brightness(1.2)saturate(1.2);
   margin: 0 auto;
-
+}
+.about .container .lead{
+    font-size: 2.2em;
 }
 
 /* Services */
 
 .services {
     padding: 40px 0;
+    font-size: 1.25em;
 }
 
 .service-item {
     margin-bottom: 30px;
 }
 
-/* Callout */
-
-.callout {
-    display: table;
-    width: 100%;
-    height: 400px;
-    color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
 
 /* Portfolio */
 
@@ -222,6 +211,9 @@ hr.small {
     margin: 0 auto;
 }
 
+.contact .circle{
+    color: red;
+}
 
 /* Call to Action */
 
